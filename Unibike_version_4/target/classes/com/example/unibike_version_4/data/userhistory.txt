@@ -1,0 +1,27 @@
+saif|- 2025-08-01 22:28:20 - Reserved Bike: Bike ID: B001
+saif|- 2025-08-01 22:28:30 - Returned Bike: Bike ID: B001
+saad|- 2025-08-01 22:41:02 - Reserved Bike: Bike ID: B001
+saif|- 2025-08-01 22:47:33 - Reserved Bike: Bike ID: B003
+saif|- 2025-08-01 22:47:38 - Returned Bike: Bike ID: B003, Cost: 1.15
+saif|- 2025-08-01 22:47:38 - Returned Bike: Bike ID: B003 | Fare: 1.15 units
+saad|- 2025-08-01 22:48:34 - Reserved Bike: Bike ID: B002
+saad|- 2025-08-01 22:48:38 - Returned Bike: Bike ID: B002, Cost: 1.15
+saad|- 2025-08-01 22:48:38 - Returned Bike: Bike ID: B002 | Fare: 1.15 units
+Tamzid|- 2025-08-01 23:27:24 - Reserved Bike: Bike ID: B001
+Tamzid|- 2025-08-01 23:27:30 - Returned Bike: Bike ID: B001, Cost: 1.15
+Tamzid|- 2025-08-01 23:27:30 - Returned Bike: Bike ID: B001 | Fare: 1.15 units
+Tamzid|- 2025-08-01 23:29:51 - Reserved Bike: Bike ID: B001
+Tamzid|- 2025-08-01 23:30:01 - Returned Bike: Bike ID: B001, Cost: 1.15
+Tamzid|- 2025-08-01 23:30:01 - Returned Bike: Bike ID: B001 | Fare: 1.15 units
+saad|- 2025-08-02 00:09:47 - Reserved Bike: Bike ID: B004
+saad|- 2025-08-02 00:09:59 - Returned Bike: Bike ID: B004, Cost: 1.15
+saad|- 2025-08-02 00:09:59 - Returned Bike: Bike ID: B004 | Fare: 1.15 units
+saif|- 2025-08-02 01:15:23 - Reserved Bike: Bike ID: B005
+saif|- 2025-08-02 01:15:34 - Returned Bike: Bike ID: B005, Cost: 1.15
+saif|- 2025-08-02 01:15:34 - Returned Bike: Bike ID: B005 | Fare: 1.15 units
+Shabab|- 2025-08-02 01:17:50 - Reserved Bike: Bike ID: B005
+Shabab|- 2025-08-02 01:18:14 - Returned Bike: Bike ID: B005, Cost: 1.15
+Shabab|- 2025-08-02 01:18:14 - Returned Bike: Bike ID: B005 | Fare: 1.15 units
+Shabab|- 2025-08-02 01:18:57 - Reserved Bike: Bike ID: B005
+Shabab|- 2025-08-02 01:19:00 - Returned Bike: Bike ID: B005, Cost: 1.15
+Shabab|- 2025-08-02 01:19:00 - Returned Bike: Bike ID: B005 | Fare: 1.15 units

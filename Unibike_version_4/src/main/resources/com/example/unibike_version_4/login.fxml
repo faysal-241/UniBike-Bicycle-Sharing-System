@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:controller="com.example.unibike_version_4.controller.LoginController"
+           prefHeight="500.0" prefWidth="600.0"
+           styleClass="root"
+           stylesheets="@login.css"
+           xmlns="http://javafx.com/javafx/17"
+           xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox alignment="CENTER">
+            <children>
+                <VBox alignment="CENTER" spacing="15.0"
+                      styleClass="login-container"
+                      prefWidth="500.0" maxWidth="800.0">
+                    <padding>
+                        <Insets top="20.0" right="40.0" bottom="20.0" left="40.0"/>
+                    </padding>
+                    <children>
+                        <!-- Header -->
+                        <Label styleClass="header-text" text="Welcome Back">
+                            <font>
+                                <Font name="System Bold" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label text="Log in to continue to UniBike" />
+
+                        <!-- Username Field -->
+                        <VBox spacing="8.0" maxWidth="Infinity">
+                            <children>
+                                <Label text="Username" />
+                                <TextField fx:id="usernameField" promptText="Enter your username"
+                                           maxWidth="Infinity" />
+                            </children>
+                        </VBox>
+
+                        <!-- Password Field -->
+                        <VBox spacing="8.0" maxWidth="Infinity">
+                            <children>
+                                <Label text="Password" />
+                                <PasswordField fx:id="passwordField" promptText="Enter your password"
+                                               maxWidth="Infinity" />
+                            </children>
+                        </VBox>
+
+                        <!-- Role Selection -->
+                        <VBox spacing="8.0" maxWidth="Infinity">
+                            <children>
+                                <Label text="Login as" />
+                                <ChoiceBox fx:id="roleChoiceBox" maxWidth="Infinity" />
+                            </children>
+                        </VBox>
+
+                        <!-- Error / Feedback Label -->
+                        <Label fx:id="messageLabel" visible="false" styleClass="error-text" />
+
+                        <!-- Login Button -->
+                        <Button fx:id="loginButton" defaultButton="true" maxWidth="Infinity"
+                                mnemonicParsing="false" onAction="#onLoginButtonClick"
+                                text="Log In" />
+
+                        <!-- Sign Up Hyperlink -->
+                        <HBox alignment="CENTER" spacing="5.0">
+                            <children>
+                                <Label text="Don't have an account?" />
+                                <Hyperlink text="Sign up" onAction="#onSignupLinkClick"/>
+                            </children>
+                            <VBox.margin>
+                                <Insets top="5.0" />
+                            </VBox.margin>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+    </children>
+</StackPane>

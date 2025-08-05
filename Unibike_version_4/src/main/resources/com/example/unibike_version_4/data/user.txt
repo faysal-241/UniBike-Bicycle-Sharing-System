@@ -1,0 +1,7 @@
+1,rafi,rafi@mail.com,1234,100.0,true
+U1754061108049,saif,s@gmail.com,1234,97.69999999999999,true
+U1754061283856,saad,sa@,1234,72.7,true
+U1754069217624,Tamzid,t@gmail.com,1234,197.7,true
+U1754074210981,sabab,sabab@gmail.com,1234,0.0,true
+U1754075252830,Ahmed,ah@gmail.com,1234,0.0,true
+U1754075819065,Shabab,Shabab@gmail.com,1234,98.85,true

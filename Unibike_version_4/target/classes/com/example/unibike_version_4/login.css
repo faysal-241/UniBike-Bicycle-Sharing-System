@@ -1,0 +1,104 @@
+/* --- General & Root Pane --- */
+.root {
+    -fx-font-family: "Segoe UI", "System";
+    -fx-background-color: linear-gradient(to bottom right, #1e3c72, #2a5298); /* Deep blue gradient */
+}
+
+/* --- Login Card --- */
+.login-container {
+    -fx-background-color: rgba(255, 255, 255, 0.15); /* Transparent glassy background */
+    -fx-background-radius: 20;
+    -fx-padding: 50;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 30, 0.5, 0, 5);
+    -fx-border-color: rgba(255, 255, 255, 0.3);
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+    /* For glass effect - only works in JavaFX WebView or if blur filter supported */
+    -fx-backdrop-filter: blur(10px);
+}
+
+/* --- Typography --- */
+.header-text {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.3), 2, 0, 0, 1);
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #dddddd;
+}
+
+/* --- Input Fields --- */
+.text-field, .password-field {
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-background-insets: 0;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: transparent;
+    -fx-font-size: 15px;
+    -fx-padding: 12;
+    -fx-prompt-text-fill: #999999;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 3, 0, 0, 2);
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #66c0f4;
+    -fx-border-width: 2;
+    -fx-background-color: white;
+    -fx-prompt-text-fill: transparent;
+}
+
+/* --- ChoiceBox --- */
+.choice-box {
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 5 10;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-text-fill: black; /* Sets text of selected item to black */
+}
+
+/* Label inside ChoiceBox dropdown and selected */
+.choice-box .label {
+    -fx-text-fill: black;
+}
+
+/* --- Login Button --- */
+.button {
+    -fx-background-color: #00b894; /* Teal green */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 14 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 4, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #00cec9;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.3, 0, 3);
+}
+
+/* --- Error Message --- */
+.error-text {
+    -fx-text-fill: #ff6b6b;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+/* --- Hyperlink --- */
+.hyperlink {
+    -fx-text-fill: #81ecec;
+    -fx-border-color: transparent;
+    -fx-underline: false;
+    -fx-font-size: 13px;
+}
+
+.hyperlink:hover {
+    -fx-underline: true;
+    -fx-text-fill: #00cec9;
+}

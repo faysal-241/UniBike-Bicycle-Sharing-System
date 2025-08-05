@@ -1,0 +1,7 @@
+U1754047021010,saif,a@,1234,0.0
+U1754047170870,john,j@gmail.com,1234,0.0
+U1754055128795,faysal,f@,1234,0.0
+U1754058578254,sabab,sabab@gmail.com,1234,0.0
+U1754059219303,saaad,s@gmail.com,1234,0.0
+U1754060645543,rafi,r@gmail.com,12,0.0
+U1754060868701,raad,ra@gmail.com,1234,0.0

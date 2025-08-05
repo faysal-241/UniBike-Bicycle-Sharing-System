@@ -1,0 +1,111 @@
+/* ========== Global Styles ========== */
+.root, .border-pane {
+    -fx-background-color: linear-gradient(to bottom, #0f2027, #203a43, #2c5364); /* Dark gradient */
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-text-fill: white;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+.table-header-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00c6ff;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.6), 5, 0, 0, 1);
+}
+
+/* Balance and Message Labels */
+#balanceLabel {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffd369; /* Highlight balance in yellow */
+}
+
+#messageLabel {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ff6b6b; /* Red error/info messages */
+}
+
+/* ========== Table Styles ========== */
+.table-view {
+    -fx-background-color: rgba(255,255,255,0.05);
+    -fx-background-radius: 8;
+    -fx-border-color: rgba(255,255,255,0.1);
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-padding: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 12, 0.2, 0, 3);
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: rgba(0,198,255,0.3); /* Semi-transparent cyan */
+    -fx-background-radius: 8 8 0 0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+}
+
+.table-view .table-row-cell:filled:hover {
+    -fx-background-color: rgba(0,198,255,0.2);
+    -fx-cursor: hand;
+}
+
+/* Alternate Row Coloring */
+.table-row-cell:odd {
+    -fx-background-color: rgba(255,255,255,0.05);
+}
+.table-row-cell:even {
+    -fx-background-color: rgba(255,255,255,0.1);
+}
+
+/* ========== Buttons ========== */
+.button {
+    -fx-background-radius: 25;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-padding: 8 20 8 20;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 8, 0, 0, 3);
+}
+
+/* Primary Action Button */
+.button-primary {
+    -fx-background-color: linear-gradient(to right, #00c6ff, #0072ff);
+}
+.button-primary:hover {
+    -fx-background-color: linear-gradient(to right, #0072ff, #00c6ff);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* Secondary Buttons */
+.button-secondary {
+    -fx-background-color: rgba(255,255,255,0.15);
+    -fx-border-color: rgba(255,255,255,0.3);
+    -fx-border-width: 1;
+}
+.button-secondary:hover {
+    -fx-background-color: rgba(255,255,255,0.3);
+}
+
+/* Danger/Logout Button */
+.button-danger {
+    -fx-background-color: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+.button-danger:hover {
+    -fx-background-color: linear-gradient(to right, #ff4b2b, #ff416c);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
