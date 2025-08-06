@@ -1,0 +1,95 @@
+/* --- Global Styles --- */
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #e9f0f5, #c8d4dd);
+}
+
+/* --- Top Header --- */
+.top-header {
+    -fx-background-color: linear-gradient(to right, #1e3c72, #2a5298);
+    -fx-padding: 15px 20px;
+}
+
+.header-title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* --- Section Headers --- */
+.section-header {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e3c72;
+    -fx-padding: 10px 0 5px 0;
+}
+
+/* --- TableView Styling --- */
+.table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.6);
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 10;
+    -fx-border-color: #b0bec5;
+    -fx-border-width: 1px;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+    -fx-font-size: 13px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #2a5298;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* --- Form Input Styling --- */
+.text-field, .combo-box, .check-box {
+    -fx-font-size: 13px;
+    -fx-background-radius: 6;
+    -fx-padding: 5;
+}
+
+/* --- Buttons --- */
+.button {
+    -fx-font-size: 13px;
+    -fx-background-radius: 6;
+    -fx-padding: 6 12;
+}
+
+/* Primary button (blue) */
+.button-primary {
+    -fx-background-color: #1976d2;
+    -fx-text-fill: white;
+}
+
+.button-primary:hover {
+    -fx-background-color: #1565c0;
+}
+
+/* Danger button (red) */
+.button-danger {
+    -fx-background-color: #d32f2f;
+    -fx-text-fill: white;
+}
+
+.button-danger:hover {
+    -fx-background-color: #b71c1c;
+}
+
+/* --- Bottom Panel Styling --- */
+.control-panel {
+    -fx-background-color: rgba(255, 255, 255, 0.4);
+    -fx-padding: 20;
+    -fx-border-color: #90a4ae;
+    -fx-border-width: 1px 0 0 0;
+}
+
+/* --- Message Label --- */
+#messageLabel {
+    -fx-text-fill: #d32f2f;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}

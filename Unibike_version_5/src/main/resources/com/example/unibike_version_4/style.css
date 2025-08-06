@@ -1,0 +1,63 @@
+/* --- Admin Panel Styles --- */
+
+.admin-panel {
+    -fx-background-color: #f4f4f9;
+}
+
+.admin-header-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-fill: #333333;
+}
+
+.header-box {
+    -fx-border-color: transparent transparent #cccccc transparent; /* Bottom border */
+    -fx-border-width: 1;
+}
+
+/* Action Buttons Box on the Right */
+.action-buttons-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Style for the Delete button to indicate a destructive action */
+.delete-button {
+    -fx-background-color: #d9534f; /* Red */
+    -fx-text-fill: white;
+}
+
+.delete-button:hover {
+    -fx-background-color: #c9302c; /* Darker red */
+}
+
+
+/* --- TableView Styles --- */
+
+.table-view {
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Column Header */
+.table-view .column-header-background {
+    -fx-background-color: #f8f9fa;
+    -fx-background-radius: 5 5 0 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-size: 14px;
+    -fx-padding: 10;
+}
+
+/* Selected Row */
+.table-view .table-row-cell:selected {
+    -fx-background-color: #007bff; /* Same blue as login button */
+    -fx-text-background-color: white;
+}
