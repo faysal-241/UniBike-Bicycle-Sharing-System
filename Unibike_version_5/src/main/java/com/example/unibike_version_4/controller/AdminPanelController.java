@@ -117,6 +117,12 @@ public class AdminPanelController {
                 return;
             }
         }
+        for(Station station: Station.getAllStations()){
+            if(station.getName().equalsIgnoreCase(name)){
+                messageLabel.setText("Station name already exists! Please choose a different name.");
+                return;
+            }
+        }
         new Station(name, capacity);
         Station.saveToFile();
 
