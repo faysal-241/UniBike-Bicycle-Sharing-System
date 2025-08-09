@@ -1,0 +1,8 @@
+AB4,20,Unknown
+Main Gate,10,Unknown
+Civil,10,Unknown
+Hall,15,Unknown
+Gate8,15,Unknown
+hall 2,5,Unknown
+C8,10,Unknown
+gate7,10,Unknown
